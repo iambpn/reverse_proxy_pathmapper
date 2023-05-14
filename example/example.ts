@@ -1,4 +1,4 @@
-import { ReverseProxyPathMapper, PathMapperType } from "../src";
+import { ReverseProxyPathMapper, PathMapperType } from "../dist/index";
 
 const pathMapper: PathMapperType = {
   "/8080/?(.*)": "http://localhost:8080", // value must not end with trailing slash
