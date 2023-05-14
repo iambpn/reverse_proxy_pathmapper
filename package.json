@@ -3,19 +3,30 @@
   "version": "1.0.0",
   "description": "Reverse proxy URL path mapper using http-proxy.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prod": "node .",
     "dev": "ts-node-dev src/index.ts --watch",
     "example": "ts-node-dev example/example.ts",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iambpn/reverse_proxy_pathmapper.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "reverse proxy",
+    "proxy",
+    "path mapper",
+    "reverse proxy path mapper",
+    "reverse proxy url mapper",
+    "url mapper",
+    "proxy path mapper",
+    "proxy url mapper"
+  ],
+  "author": "Bipin Maharjan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iambpn/reverse_proxy_pathmapper/issues"
@@ -28,5 +39,8 @@
   },
   "dependencies": {
     "http-proxy": "^1.18.1"
-  }
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
