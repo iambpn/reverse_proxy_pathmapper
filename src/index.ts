@@ -7,7 +7,7 @@ export type PathRegex = {
   target: string | { URL: string; rewriteURL?: boolean };
 };
 
-export default class ReverseProxyPathMapper {
+export class ReverseProxyPathMapper {
   private proxy: httpProxy<Request, Response>;
   private path_regex: PathRegex[] = [];
 

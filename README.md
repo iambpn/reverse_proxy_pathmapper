@@ -5,7 +5,7 @@ Reverse proxy URL path mapper using http-proxy.
 ## Usage
 
 ```TS
-import ReverseProxyPathMapper, from "reverse_proxy_path_mapper";
+import {ReverseProxyPathMapper} from "reverse_proxy_path_mapper";
 new ReverseProxyPathMapper({}, pathMapper).serve(9000);
 ```
 
