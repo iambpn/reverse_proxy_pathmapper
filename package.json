@@ -8,6 +8,7 @@
     "prod": "node .",
     "dev": "ts-node-dev src/index.ts --watch",
     "example": "ts-node-dev example/example.ts",
+    "example-js": "node example/example.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "npm run build"
