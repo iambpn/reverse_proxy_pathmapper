@@ -2,6 +2,10 @@
 
 Reverse proxy URL path mapper using http-proxy.
 
+## Installing using NPM
+
+`npm i reverse_proxy_pathmapper`
+
 ## Usecase
 
 This can be used as the dev replacement for nginx/ingress controller when working with multiple web servers.
