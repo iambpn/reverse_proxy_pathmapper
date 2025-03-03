@@ -1,4 +1,4 @@
-# reverse_proxy_pathmapper
+# reverse_proxy_pathmapper (Depreciated)
 
 Reverse proxy URL path mapper using http-proxy.
 
